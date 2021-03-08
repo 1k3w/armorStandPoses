@@ -12,7 +12,6 @@ public class ArmorStandPoses {
 
     public void setSpasm(){
         Random rand = new Random();
-        stand.setArms(true);
         stand.setBodyPose(new EulerAngle(rand.nextInt(360),rand.nextInt(360),rand.nextInt(360)));
         stand.setHeadPose(new EulerAngle(rand.nextInt(360),rand.nextInt(360),rand.nextInt(360)));
         stand.setLeftArmPose(new EulerAngle(rand.nextInt(360),rand.nextInt(360),rand.nextInt(360)));
